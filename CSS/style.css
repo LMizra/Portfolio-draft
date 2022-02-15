@@ -17,7 +17,8 @@ header {
 }
 
 li,
-a {
+a,
+button {
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -40,6 +41,7 @@ a {
 .nav-links li a:hover {
   color: #0088a9;
 }
+
 /*  End of Header & Nav Links - Desktop */
 
 /* Start of Hero  */
@@ -60,10 +62,12 @@ a {
 }
 
 .hero-text {
-  align-items: center;
-  display: block;
+  /* align-items: center; */
+  text-align: center;
+  display: inline-block;
   justify-content: center;
   color: white;
+  height: 55%;
 }
 
 .hero-text h1 {
@@ -74,6 +78,26 @@ a {
 .hero-text h3 {
   font-size: 30px;
   padding: 20px;
+}
+
+.contact-me {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.6);
 }
 
 #profile_pic {
@@ -87,15 +111,19 @@ a {
 
 /* start of about me */
 .about-me {
-  height: 100%;
-  width: 50%;
-  background-color: brown;
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.about-me-container h2 {
-  background-color: aquamarine;
+.about-me-container p {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 20px;
+  text-align: center;
+  height: 60vh;
 }
