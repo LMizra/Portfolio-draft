@@ -77,7 +77,7 @@ button {
 .hero-text h1 {
   font-size: 80px;
   line-height: 70px;
-  padding: 20px;
+  padding: 60px;
 }
 .hero-text h3 {
   font-size: 30px;
@@ -105,8 +105,8 @@ button:hover {
 }
 
 #profile_pic {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
   border: white solid 5px;
 }
@@ -195,3 +195,5 @@ button:hover {
 }
 
 /* End of skills */
+
+
